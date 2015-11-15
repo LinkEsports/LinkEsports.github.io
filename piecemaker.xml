@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Contents>
+    <Image Source="contents/piecemaker1.png" Title="League of Legends">
+	<Text>&lt;h1&gt;League of Legends&lt;/h1&gt;&lt;p&gt;League of Legends is a fast-paced, competitive online game that blends the speed and intensity of an RTS with RPG elements. Two teams of powerful champions, each with a unique design and playstyle, battle head-to-head across multiple battlefields and game modes. With an ever-expanding roster of champions, frequent updates and a thriving tournament scene, League of Legends offers endless replayability for players of every skill level.&lt;/p&gt;</Text>
+	<Hyperlink URL="http://euw.leagueoflegends.com/" Target="_blank" />
+	</Image>		
+    <Image Source="contents/piecemaker2.png" Title="Counter-Strike: Global Offensive">
+      <Text>&lt;h1&gt;Counter-Strike: Global Offensive&lt;/h1&gt;&lt;p&gt;Global Offensive is an objective-based multiplayer first-person shooter. Each player joins either the Terrorist or Counter-Terrorist team and attempts to complete objectives or eliminate the enemy team. The game operates in short rounds that end when all players on one side are dead or a teams objective is completed. For most game modes, once a player dies, they must wait until the round ends to respawn. Completing objectives or killing enemies earns the player money while negative actions, like killing a teammate or hostage, takes money away from the player. In addition, when a round ends all players receive some amount of money, with players on the winning team receiving substantially more.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://blog.counter-strike.net/" Target="_blank" />
+    </Image>
+	<Image Source="contents/piecemaker3.png" Title="Dota 2">
+      <Text>&lt;h1&gt;Dota 2&lt;/h1&gt;&lt;p&gt;Dota 2 is played in matches between two five-player teams, each of which occupies a stronghold in a corner of the playing field. A team wins by destroying the other sides Ancient building, located within the opposing stronghold. Each player controls one of 110 playable "Hero" characters that feature unique powers and styles of play. During a match, the player collects gold, items, and experience points for their Hero, while combating Heroes of the opposite team.&lt;/p&gt;</Text>
+      <Hyperlink URL="http://blog.dota2.com/" Target="_blank" />
+    </Image>
+	<Image Source="contents/piecemaker4.png" Title="StarCraft 2">
+      <Text>&lt;h1&gt;StarCraft 2&lt;/h1&gt;&lt;p&gt;StarCraft II: Wings of Liberty is a military science fiction real-time strategy video game.The game revolves around three species: the Terrans, human exiles from Earth; the Zerg, a super-species of assimilated life forms; and the Protoss, a technologically advanced species with vast mental powers. Wings of Liberty focuses on the Terrans, while the expansions Heart of the Swarm and Legacy of the Void will focus on the Zerg and Protoss, respectively. The game is set four years after the events of 1998s StarCraft: Brood War, and follows the exploits of Jim Raynor as he leads an insurgent group against the autocratic Terran Dominion. The game includes both new and returning characters and locations from the original game. &lt;/p&gt;</Text>
+      <Hyperlink URL="http://eu.battle.net/sc2/en/" Target="_blank" />
+    </Image>
+  </Contents>
+  <Settings ImageWidth="960" ImageHeight="360" LoaderColor="0x333333" InnerSideColor="0x222222" SideShadowAlpha="0.8" DropShadowAlpha="0.7" DropShadowDistance="25" DropShadowScale="0.95" DropShadowBlurX="40" DropShadowBlurY="4" MenuDistanceX="20" MenuDistanceY="50" MenuColor1="0x999999" MenuColor2="0x333333" MenuColor3="0xFFFFFF" ControlSize="100" ControlDistance="20" ControlColor1="0x222222" ControlColor2="0xFFFFFF" ControlAlpha="0.8" ControlAlphaOver="0.95" ControlsX="450" ControlsY="280&#xD;&#xA;" ControlsAlign="center" TooltipHeight="30" TooltipColor="0x222222" TooltipTextY="5" TooltipTextStyle="P-Italic" TooltipTextColor="0xFFFFFF" TooltipMarginLeft="5" TooltipMarginRight="7" TooltipTextSharpness="50" TooltipTextThickness="-100" InfoWidth="400" InfoBackground="0xFFFFFF" InfoBackgroundAlpha="0.95" InfoMargin="15" InfoSharpness="0" InfoThickness="0" Autoplay="10" FieldOfView="45"></Settings>
+  <Transitions>
+    <Transition Pieces="8" Time="1.4" Transition="easeInOutBack" Delay="0.06" DepthOffset="500" CubeDistance="40"></Transition>
+    <Transition Pieces="6" Time="0.9" Transition="easeInOutBack" Delay="0.1" DepthOffset="500" CubeDistance="40"></Transition>
+    <Transition Pieces="7" Time="1.2" Transition="easeInOutCubic" Delay="0.1" DepthOffset="500" CubeDistance="40"></Transition>
+    <Transition Pieces="9" Time="1.4" Transition="easeInOutQuart" Delay="0.06" DepthOffset="600" CubeDistance="30"></Transition>
+  </Transitions>
+</Piecemaker>

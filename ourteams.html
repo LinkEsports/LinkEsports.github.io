@@ -1,0 +1,196 @@
+	<!--
+		############################################
+		#  File			: index.php                #
+		#------------------------------------------#
+		#  By			: Colin van Zantvoort      #
+		#------------------------------------------#
+		############################################
+	-->
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--
+  ############################################
+  #  File			: header.php               #
+  #------------------------------------------#
+  #  By			: Colin van Zantvoort      #
+  #  Website		: www.flyerwebdesign.nl    #
+  #------------------------------------------#
+  ############################################
+-->
+
+
+
+<head>
+  <title>TSEA Link</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="" />
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+  <meta http-equiv="Content-Language" content="nl" />
+
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="http://fonts.googleapis.com/css?family=Ubuntu:400,300,300italic,400italic,700,700italic,500,500italic" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+
+  <!--include jquery-->
+
+  <!--Jquery script for importing html-->
+
+  <!-- Piecemaker -->
+  <script type="text/javascript" src="js/swfobject/swfobject.js"></script>
+  <script type="text/javascript">
+  var flashvars = {};
+  flashvars.cssSource = "css/piecemaker.css";
+  flashvars.xmlSource = "piecemaker.xml";
+  var params = {};
+  params.play = "true";
+  params.menu = "false";
+  params.scale = "showall";
+  params.wmode = "transparent";
+  params.allowfullscreen = "true";
+  params.allowscriptaccess = "always";
+  params.allownetworking = "all";
+  swfobject.embedSWF('piecemaker.swf', 'piecemaker', '960', '440', '10', null, flashvars, params, null);
+  </script>
+
+  <script language="javascript" type="text/javascript">
+  function clearText(field){
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+  }
+
+  </script>
+</head>
+
+<body>
+  <div id="header_wrapper">
+    <div id="header">
+      <a href="index.html"><img class="no-margin mainImg" src="../img/logo.png" alt="TSEA Link Logo"></a>
+      <div id="menu" class="ddsmoothmenu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="ourteams.html">Our teams</a></li>
+          <li><a href="organization.html">Why join us?</a></li>
+          <li><a href="Hall_of_fame.html">Hall of Fame</a></li>
+          <li><a href="http://goo.gl/forms/0Szlq1X8d7">Become a member</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <br style="clear: left" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Piecemaker -->
+  <div id="middle_wrapper">
+    <div id="middle">
+      <div id="piecemaker">
+      </div>
+    </div>
+  </div>
+
+  <!-- Start Main Div -->
+  <div id="main_top"></div>
+
+			<div id="main">
+
+					<!-- Product Div -->
+					<?php include 'include/product.php'; ?>
+					<div class="cleaner h50"></div>
+
+					<!-- Left Column -->
+					<div class="col_12 float_l">
+						<h2>League of Legends Teams</h2>
+							Team 1: Link E-sports 1
+							<ul>
+								<li>Justin 'Masqavar' Vissers</li>
+								<li>Dennis 'HeLix Trozay' Backus</li>
+								<li>Gilles 'Giiles' Erkelens</li>
+								<li>Bas 'Nijidik' de Kruijf</li>
+								<li>Harm 'Blackfish Keiko' van Driel</li>
+								<li>Thijs 'MrTJ100' van der Vegt</li>
+								<li>Coach: Jasper van Beurden</li>
+							</ul>
+							Team 2: Tiltburg
+							<ul>
+								<li>Gal 'General McLovin' Cornblum</li>
+								<li>Bram 'Ganjaa3' Vugts</li>
+								<li>Jaap 'Fueled by Fanta' Dijkstra</li>
+								<li>Vojtech 'Farii' Volf</li>
+								<li>Maurits 'Chronicler' Meeusen</li>
+								<li>Jan-Willem 'Defeault' van Wouw</li>
+								<li>Coach: Lingxi Zong</li>
+							</ul>
+							Team 3 : TBD
+							<ul>
+								<li></li>
+								<li>b</li>
+								<li>c</li>
+								<li>d</li>
+								<li>e</li>
+							</ul>
+
+						<h2>Counterstrike: Global Offensive Team</h2>
+							Team 1 : TBD
+							<ul>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<li></li>
+
+					</div>
+
+					<!-- Right Column -->
+					<div class="col_12 float_r">
+						<h2>TSEA Link</h2>
+						<img src="images/" alt="Image 01" class="float_l img_float_l" />
+						<p>To your left, you can see all our current competitive gaming teams. We are always open to expanding our roster and are currently searching for DOTA2, Hearthstone and Starcraft 2 players. Are you interested? Contact us!
+					</div>
+
+				<!-- Cleaner -->
+				<div class="cleaner"></div>
+
+			</div>
+
+		<!-- Footer -->
+    <div id="footer_wrapper">
+    		<div id="footer">
+
+    			<!-- Most Left Column -->
+    			<div class="col col_14">
+    				<h5>Sitemap</h5>
+    				<ul class="footer_list">
+    					<li><a href="index.html">Home</a></li>
+    					<li><a href="ourteams.html">Our teams</a></li>
+    					<li><a href="organization.html">What we do</a></li>
+    					<li><a href="member.html">Why become a member</a></li>
+    					<li><a href="http://goo.gl/forms/0Szlq1X8d7">Become a member</a></li>
+    					<li><a href="contact.html">Contact</a></li>
+    				</ul>
+    			</div>
+
+    			<!-- Inner Left Column -->
+    			<div class="col col_14">
+    				<h5>Follow Us</h5>
+    				<ul class="footer_list">
+    					<li><a href="https://www.facebook.com/LinkTilburg"><img class="imgHeight" src="../img/facebook.png" alt="Facebook"> Facebook</a></li>
+    					<li><a href="https://twitter.com/tsealink"><img class="imgHeight"  src="../img/twitter.png" alt="Twitter"> Twitter</a></li>
+    					<li><a href="http://steamcommunity.com/groups/TSEALink"><img  class="imgHeight" src="../img/steam.png" alt="Steam Community"> Steam Community</a></li>
+    					<li><a href="http://linkesports.boards.net/"><img  class="imgHeight" src="../img/forum.png" alt="Forum"> Forum</a></li>
+    				</ul>
+    			</div>
+
+    			<!-- Most Right Column -->
+    			<div class="col col_24 no_margin_right">
+    				<h5>About Tilburg Student E-Sports Association Link</h5>
+    				<div class="copyright">Copyright © <a href="http://www.q-expertise.nl">Colin van Zantvoort</a>.</div>
+    			</div>
+
+    		<!-- Cleaner -->
+    		<div class="cleaner"></div>
+
+    		</div>
+    	</div>
+		</body>
+	</html>
